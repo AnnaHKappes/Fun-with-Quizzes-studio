@@ -41,4 +41,8 @@ public class Quiz {
         String usersAnswer = scanner.nextLine();
         return usersAnswer;
     }
+
+    public ArrayList<Question> getQuestions() {
+        return questions;
+    }
 }
